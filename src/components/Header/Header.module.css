@@ -1,0 +1,11 @@
+.header {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.caption {
+    color: #11175E;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 4.8rem;
+    letter-spacing: 0.05rem;
+}

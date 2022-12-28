@@ -1,0 +1,31 @@
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App {
+    margin-top: 1.3rem;
+    padding: 2.6% 1%;
+    width: 95%;
+    max-width: 1000px;
+    height: 95%;
+    max-height: 670px;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px rgba(0, 23, 71, 0.15);
+    border-radius: 32px;
+}

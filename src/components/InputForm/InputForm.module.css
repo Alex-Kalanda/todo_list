@@ -1,0 +1,41 @@
+.container {
+    height: 5.8rem;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #EEEEEE;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.input {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.01rem;
+    color: #B1BACB;
+}
+
+.button {
+    border: 1px solid #2D70FD;
+    border-radius: 4px;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.7rem;
+    width: 13.6rem;
+    height: 4.4rem;
+    text-align: center;
+    background-color: #2D70FD;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+}
