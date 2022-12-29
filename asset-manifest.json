@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b22061e7.css",
+    "main.js": "/static/js/main.37ba9eea.js",
+    "index.html": "/index.html",
+    "static/media/done-icon.svg": "/static/media/done-icon.c1d4a77bdcc60bab01cba68be3d18860.svg",
+    "main.b22061e7.css.map": "/static/css/main.b22061e7.css.map",
+    "main.37ba9eea.js.map": "/static/js/main.37ba9eea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b22061e7.css",
+    "static/js/main.37ba9eea.js"
+  ]
+}
