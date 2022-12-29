@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "./Header.module.css";
+import React from 'react';
+import styles from './Header.module.css';
 
-const HEADER_TITLE = "Дневной список дел";
+const HEADER_TITLE = 'Дневной список дел';
 
 const Header = () => {
   return (

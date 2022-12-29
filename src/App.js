@@ -1,17 +1,16 @@
-import React from "react";
-import "./App.css";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import { useState } from "react";
-import TodoList from "./components/TodoList/TodoList";
-import InputForm from "./components/InputForm/InputForm";
+import React from 'react';
+import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import { useState } from 'react';
+import TodoList from './components/TodoList/TodoList';
+import InputForm from './components/InputForm/InputForm';
 
 function App() {
   const test = [
-    { task: "Do something", status: true },
-    { task: "Drink something", status: true },
-    { task: "Go home", status: false },
-    { task: "Learn JS", status: true },
+    { task: 'Do something', status: false },
+    { task: 'Drink something', status: false },
+    { task: 'Go home', status: true },
   ];
 
   const [state, setState] = useState(test);
@@ -21,7 +20,7 @@ function App() {
       <Header />
       <InputForm />
       <TodoList tasks={state} />
-      <Footer />
+      <Footer tasks={state} />
     </div>
   );
 }

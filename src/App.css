@@ -28,4 +28,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0 0 4px rgba(0, 23, 71, 0.15);
     border-radius: 32px;
+    display: flex;
+    flex-direction: column;
 }

@@ -4,10 +4,9 @@
     max-width: 600px;
     border: 1px solid #EEEEEE;
     border-radius: 0.8rem;
-    margin: 0 auto;
+    margin: 0 auto 3rem;
     font-family: 'Inter', sans-serif;
     position: relative;
-    margin-bottom: 3rem;
 }
 
 .input {
@@ -25,6 +24,7 @@
 }
 
 .button {
+    cursor: pointer;
     border: 1px solid #2D70FD;
     border-radius: 4px;
     position: absolute;
