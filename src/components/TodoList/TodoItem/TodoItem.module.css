@@ -7,12 +7,13 @@
     width: 3.2rem;
     height: 3.2rem;
     border-radius: 50%;
-    border: 1px solid #eeeeee;
-    background-color: #ffffff;
+    border: 1px solid #eee;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .indicator_done {
     background-color: #00D8A7;
     border: 1px solid #00D8A7;
@@ -22,12 +23,13 @@
     font-size: 1.6rem;
     font-weight: 500;
     color: #001747;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
+
 .task:hover {
     color: #2D70FD;
 }

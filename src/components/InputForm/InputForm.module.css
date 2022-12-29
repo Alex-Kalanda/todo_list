@@ -2,10 +2,10 @@
     height: 5.8rem;
     width: 100%;
     max-width: 600px;
-    border: 1px solid #EEEEEE;
+    border: 1px solid #EEE;
     border-radius: 0.8rem;
     margin: 0 auto 3rem;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     position: relative;
 }
 
@@ -16,8 +16,9 @@
     height: 100%;
     border: 0;
 }
+
 .input::placeholder {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 1.6rem;
     letter-spacing: 0.01rem;
     color: #B1BACB;
@@ -34,7 +35,7 @@
     height: 4.4rem;
     text-align: center;
     background-color: #2D70FD;
-    color: #ffffff;
+    color: #fff;
     font-weight: 500;
     font-size: 1.8rem;
     letter-spacing: 0.05rem;
