@@ -19,7 +19,7 @@
 .cleanButton {
     padding: 2.3rem 2rem 0.8rem;
     border: 0;
-    background-color: #FFFFFF;
+    background-color: transparent;
     letter-spacing: 0.03rem;
     font-family: 'Inter', sans-serif;
     color: #B1BACB;

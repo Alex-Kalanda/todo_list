@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './TodoList.module.css';
 import TodoItem from './TodoItem/TodoItem';
 
-const TodoList = ({ tasks }) => {
+const TodoList = ({ tasks, onChangeStatus }) => {
   return (
     <div className={styles.container}>
-      {tasks.map((task, idx) => (
-        <TodoItem key={idx} {...task} />
+      {tasks.map((task) => (
+        <TodoItem key={task.id} {...task} onChangeStatus={onChangeStatus} />
       ))}
     </div>
   );

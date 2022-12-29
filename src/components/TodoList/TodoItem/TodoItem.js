@@ -3,7 +3,7 @@ import styles from './TodoItem.module.css';
 import cn from 'classnames';
 import indicatorIcon from '../../../assets/svg/done-icon.svg';
 
-const TodoItem = ({ task, status }) => {
+const TodoItem = ({ task, status, id, onChangeStatus }) => {
   const indicatorStyles = cn(styles.indicator, {
     [styles.indicator_done]: status,
   });
@@ -14,7 +14,9 @@ const TodoItem = ({ task, status }) => {
   return (
     <div className={styles.container}>
       <div className={indicatorStyles}>{status && <img src={indicatorIcon} alt="done icon" />}</div>
-      <span className={taskStyles}>{task}</span>
+      <span className={taskStyles} onClick={() => onChangeStatus(id)}>
+        {task}
+      </span>
     </div>
   );
 };

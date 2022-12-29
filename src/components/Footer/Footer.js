@@ -9,7 +9,7 @@ const AmountDoneTask = {
   titleMulti: 'дел завершено',
 };
 
-const Footer = ({ tasks, onClick }) => {
+const Footer = ({ tasks, cleanTasks }) => {
   const getCorrectTitle = (numOfTasks) => {
     if (numOfTasks === 1) return AmountDoneTask.titleOne;
     if (numOfTasks > 1 && numOfTasks < 5) return AmountDoneTask.titleFew;
@@ -24,7 +24,7 @@ const Footer = ({ tasks, onClick }) => {
   return (
     <footer className={styles.footer}>
       <div className={styles.amount}>{Array.isArray(tasks) && getAmountTaskTitle()}</div>
-      <button className={styles.cleanButton} onClick={onClick}>
+      <button className={styles.cleanButton} onClick={cleanTasks}>
         {CLEAN_BUTTON_TITLE}
       </button>
     </footer>
